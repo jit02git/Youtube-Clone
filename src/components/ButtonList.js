@@ -1,16 +1,22 @@
 import React from 'react'
+import Button from "./Button";
 
 const ButtonList = () => {
   return (
     <div className='flex'>
-      <div>All</div>
-      <div>Gaming</div>
-      <div>Songs</div>
-      <div>Live</div>
-      <div>Cricket</div>
-      <div>News</div>
-      <div>Cooking</div>
-      <div>Worship</div>
+      <Button name="All" />
+      <Button name="Gaming" />
+      <Button name="Songs" />
+      <Button name="Live" />
+      <Button name="Cricket" />
+      <Button name="News" />
+      <Button name="Cooking" /> 
+      <Button name="Worship" />
+      <Button name="Live" />
+      <Button name="Cricket" />
+      <Button name="News" />
+      <Button name="Cooking" />
+      <Button name="Worship" />
     </div>
   )
 }
