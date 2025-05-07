@@ -1,6 +1,6 @@
-import React from 'React'
+import React from 'react'
 
-const VideoCard = () => {
+const VideoCard = (info) => {
     return <div>Video Card</div>
 }
 
