@@ -1,10 +1,12 @@
 import React from "react";
+import { Link } from 'react-router-dom'
+
 
 const Sidebar = () => {
   return (
     <div className="p-5 shadow-lg col-span-2 w-60">
       <ul>
-        <li className="my-2 text-xl">Home</li>
+        <li className="my-2 text-xl"><Link to="/">Home</Link></li>
         <li className="my-2 text-xl">Shorts</li>
         <li className="my-2 text-xl">Subscription</li>
       </ul>
