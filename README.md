@@ -25,5 +25,5 @@ A responsive and modern YouTube Clone built with **React** and **Redux**, offeri
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/youtube-clone.git
-cd youtube-clone
+git clone https://github.com/jit02git/Youtube-Clone.git
+cd Youtube-Clone
